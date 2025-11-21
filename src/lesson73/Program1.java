@@ -1,4 +1,4 @@
-package section1;
+package lesson73;
 
 import java.util.Scanner;
 
@@ -63,6 +63,5 @@ public class Program1 {
 		scanner.close();
 
 	}
-	
 	
 }
