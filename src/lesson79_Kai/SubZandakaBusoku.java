@@ -1,4 +1,4 @@
-package lesson79;
+package lesson79_Kai;
 
 public class SubZandakaBusoku extends ZandakaBusokuException {
 

@@ -1,9 +1,10 @@
 package lesson79;
 
-class ZandakaBusokuException extends Exception {
-	public ZandakaBusokuException() {
-	}
-	public ZandakaBusokuException(String message) {
-		super(message);
-	}
+// Exceptionクラスを継承した、検査例外とすること。
+class ZandakaBusokuException{
+
+	// エラーメッセージ（String message）を受け取るコンストラクタを作成し、super(message); を実行するようにしておくこと。
+
+	// デフォルトコンストラクタを明示的に作成しておくこと。
+
 }
