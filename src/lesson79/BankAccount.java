@@ -3,13 +3,6 @@ package lesson79;
 class BankAccount {
 	
 	// privateフィールドとして、accountHolder (口座名義人, String) と balance (残高, int) を持つ。
-	private String accountHolder;
-	private int balance;
-	
-	BankAccount(String accountHolder, int balance){
-		this.accountHolder = accountHolder;
-		this.balance = balance;
-	}
 	
 	void deposit(int amount) {
 		balance += amount;
@@ -17,10 +10,9 @@ class BankAccount {
 		System.out.println("残高: " + balance);
 	}
 	
-	void withdraw(int amount) throws ZandakaBusokuException{
-		if ( balance <  amount ) {
+	void withdraw(int amount) {
+		if (             ) {
 			// 残高不足の場合、独自例外をスロー
-			throw new ZandakaBusokuException("残高不足です。");
 
 		}
 		balance -= amount;
